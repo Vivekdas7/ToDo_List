@@ -154,7 +154,7 @@ class _HomeState extends State<Home> {
           color: Colors.white, borderRadius: BorderRadius.circular(20)),
       child: TextField(
         onChanged: (value)=>_runfilter(value),
-        controller: _todocontroller,
+        // controller: _todocontroller,
         decoration: InputDecoration(
             contentPadding: EdgeInsets.all(0),
             prefixIcon: Icon(
